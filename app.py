@@ -4,7 +4,7 @@ from flask import Flask, redirect
 app = Flask(__name__)
 
 # This is the destination URL — change this later to your website
-current_url = "https://maps.google.com/?q=Your+Restaurant+Location"
+current_url = "https://maps.app.goo.gl/YQSjk16vpEp7knNZ8?g_st=com.google.maps.preview.copy"
 
 @app.route("/")
 def dynamic_redirect():
